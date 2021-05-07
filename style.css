@@ -105,6 +105,26 @@ body {
     transform: translate(-50%);
 }
 
+/* info */
+
+/* exapmle */
+
+/* sub */
+
+.sub {
+    display: flex;
+    padding-top: 90px;
+}
+
+.sub_img {
+    display: block;
+    width: calc(100%/3);
+}
+
+.sub_img img {
+    width: 100%;
+}
+
 /* footer */
 
 .footer {
