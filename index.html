@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>蒼乃建設</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" media="screen and (min-width:768px)">
+    <link rel="stylesheet" href="mobile.css" media="screen and (max-width:767px)">
+
 </head>
 <body>
     <div class="wrap">
@@ -23,6 +25,9 @@
                             <li><a href="#">お問い合わせ</a></li>
                         </ul>
                     </nav>
+                    <div class="header_icon">
+                        <img src="images/hamburger.svg" alt="ハンバーガーメニュー">
+                    </div>
                 </header>
                 <p class="header_main_text">街を作る。未来を作る。</p>
             </div>
@@ -59,7 +64,7 @@
         <div class="example">
             <h3 class="example_title">施工事例</h3>
             <ul class="example_list">
-                <li>
+                <li class="example_m_house">
                     <dl>
                         <dt class="example_phot"><img src="images/building1.png" alt=""></dt>
                         <dd class="example_name">M様邸新築工事</dd>
@@ -67,7 +72,7 @@
                         <dd class="example_details"><a href="#"><img src="images/more.png" alt="詳細を見る"></a></dd>
                     </dl>
                 </li>
-                <li>
+                <li class="example_skybill">
                     <dl>
                         <dt class="example_phot"><img src="images/building2.png" alt=""></dt>
                         <dd class="example_name">スカイビル</dd>
