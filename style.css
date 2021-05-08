@@ -23,6 +23,9 @@ time, mark, audio, video {
     font-weight: normal;
     font-size: 100%;
     vertical-align: baseline;
+    line-height: 1.2;
+    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+
 }
 article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
@@ -53,8 +56,9 @@ div#test {
 .cf:after {clear: both;}
 .cf {*zoom: 1;}
 
-body {
-    font-family: 'ヒラギノ明朝 ProN','Hiragino Mincho ProN','Yu Mincho Light','YuMincho','Yu Mincho','游明朝体',sans-serif;
+
+.wrap {
+    overflow: hidden;
 }
 
 .header_wrap {
@@ -87,6 +91,7 @@ body {
 }
 
 .header_nav ul li {
+    list-style: none;
     margin: 0 30px;
 }
 
@@ -96,6 +101,10 @@ body {
     font-size: 18px;
 }
 
+.header_icon {
+    display: none;
+}
+
 .header_main_text {
     font-size: 48px;
     text-align: center;
@@ -103,6 +112,7 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%);
+    width: 100%;
 }
 
 /* info */
@@ -130,6 +140,7 @@ body {
 }
 
 .info_list li a {
+    display: block;
     text-decoration: none;
     font-size: 18px;
     color: black;
@@ -161,6 +172,10 @@ body {
     text-align: center;
 }
 
+.example_m_house {
+    padding-right: 25px;
+}
+
 .example_phot img {
     width: 100%;
 }
@@ -177,6 +192,10 @@ body {
 
 .example_details a img {
     width: 300px;
+}
+
+.example_skybill {
+    padding-left: 25px;
 }
 
 .example_btn {
@@ -250,3 +269,9 @@ body {
     text-align: center;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 480px) {
+  .header-wrap {
+    height: 50vh;
+  }
+}  
