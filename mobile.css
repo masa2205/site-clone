@@ -176,3 +176,50 @@ div#test {
     margin-bottom: 0px;
 }
 
+.example_list {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.example_phot img {
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.example_name {
+    font-size: 24px;
+    margin-top: 30px;
+}
+
+.example_place {
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.example_details a{
+    display: block;
+    margin-top: 15px;
+}
+
+.example_details a img {
+    width: 300px;
+}
+
+.example_skybill {
+    padding-top: 30px;
+}
+
+.example_btn {
+    text-align: center;
+    margin-top: 80px;
+}
+
+.example_btn a {
+    text-decoration: none;
+    border: 1px solid black;
+    font-size: 20px;
+    color: black;
+    padding: 12px 40px;
+}
