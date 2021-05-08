@@ -210,6 +210,7 @@ div#test {
     color: black;
     padding: 12px 40px;
 }
+
 /* sub */
 
 .sub {
@@ -269,9 +270,3 @@ div#test {
     text-align: center;
     padding-bottom: 10px;
 }
-
-@media screen and (max-width: 480px) {
-  .header-wrap {
-    height: 50vh;
-  }
-}  
